@@ -1,0 +1,139 @@
+.page {
+    margin-top:10px;
+	margin-bottom:10px;
+	height: 700px;
+	overflow: hidden;
+	position: relative;
+}
+
+a { color: inherit; }
+
+.person {
+	width: 100%;
+    margin: 0 auto;
+}
+
+
+.common {
+	font-size:11pt;
+	text-align:justify;
+	margin-bottom:10px;
+	padding-left:26px;
+}
+
+.common li {
+	padding:3px 0px;
+}
+
+.left{
+	background:#444957;
+	padding-top:20px;
+	height: 100%;
+	/*border-top:10px solid #bd2130;*/
+}
+
+h4 {
+	vertical-align:text-bottom;
+	width:24px;
+	height:24px;
+	margin-right:8px;
+}
+
+span.award{
+	font-weight:bold;
+	/*color:#bd2130;*/
+	color:#FF0000!important;
+}
+
+/* .biography,.publication {
+	border-bottom: solid 1px gray;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+} */
+
+.content {
+	height: 700px;
+    /* background-color: aliceblue; */
+    /* background-color: white; */
+	overflow-y: scroll;
+	position: absolute;
+    right: 0px;
+    right: -17px;
+    top: 0px;
+}
+
+/* .row,.left-container {
+	height: 100%;
+} */
+.glyphicon {
+	display: inline;
+    padding-right: 10px;
+}
+.person-info p {
+	margin-bottom: 24px;
+}
+.pull-right{
+	float: right;
+}
+
+
+@font-face {
+	font-family: 'EB Garamond';
+	font-style: normal;
+	font-weight: 400;
+	src: url(../fonts/EBGaramond-Regular.ttf);
+  }
+
+
+
+html {
+	font-size: 16px;
+}
+body {
+	font-family: "EB Garamond",serif;
+	line-height: 1.5;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+h1 {
+	/* font-family: "EB Garamond",serif; */
+	font-size: 2.5em;
+	padding: 10px 0;
+}
+p ,li{
+	font-size: large;
+}
+.navbar {
+	position: fixed;
+	width: 100%;
+	height:50px;
+	z-index: 999;
+}
+.nav-style {
+	width: 70%;
+}
+.navbar-brand {
+	font-weight: bolder;
+    font-size: large;
+    font-style: italic;
+    color: black !important;
+}
+.container-page {
+	padding: 10px 12%
+}
+.person-img {
+	width: 75%;
+	height: 75%;
+	/* display: block; */
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+}
+.person-info {
+	/* padding-left: 1px;
+    padding-right: 1px; */
+    margin-top: 10px;
+    /* color: white; */
+}
+.changestyle{color:red;font-weight:600;}
